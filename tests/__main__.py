@@ -1,13 +1,13 @@
 import os
 import tempfile
 
-from test.stick import *
-from test.algorithms import *
-from test.memory import *
-from test.primitives import *
-from test.relational import *
-from test.routing import *
-from test.misc import *
+from test_stick import *
+from test_algorithms import *
+from test_memory import *
+from test_primitives import *
+from test_relational import *
+from test_routing import *
+from test_misc import *
 
 FIGURES_DIR = os.path.join(tempfile.gettempdir(), 'stick-figures')
 os.makedirs(FIGURES_DIR, exist_ok=True)
